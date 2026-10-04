@@ -5,6 +5,7 @@
 #
 # Hosted dashboard dependencies are in requirements.txt only.
 -r requirements.txt
+pyarrow>=16,<22
 ultralytics>=8.3,<9
 opencv-python>=4.10,<5
 pyyaml>=6,<7

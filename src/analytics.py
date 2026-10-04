@@ -24,6 +24,8 @@ def _as_bool(series: pd.Series) -> pd.Series:
 
 
 def load_table(path: Path) -> pd.DataFrame:
+    # CSV-first for the hosted dashboard. Parquet remains optional for local notebooks
+    # when pyarrow is installed via requirements-training.txt.
     if path.suffix == ".parquet":
         frame = pd.read_parquet(path)
     else:
@@ -35,17 +37,17 @@ def load_table(path: Path) -> pd.DataFrame:
 
 
 def default_detections_path() -> Path:
-    parquet = TABLES / "detections.parquet"
-    if parquet.is_file():
-        return parquet
-    return TABLES / "detections.csv"
+    csv_path = TABLES / "detections.csv"
+    if csv_path.is_file():
+        return csv_path
+    return TABLES / "detections.parquet"
 
 
 def default_fn_path() -> Path:
-    parquet = TABLES / "false_negatives.parquet"
-    if parquet.is_file():
-        return parquet
-    return TABLES / "false_negatives.csv"
+    csv_path = TABLES / "false_negatives.csv"
+    if csv_path.is_file():
+        return csv_path
+    return TABLES / "false_negatives.parquet"
 
 
 def filter_detections(

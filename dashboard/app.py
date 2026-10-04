@@ -57,11 +57,9 @@ VERSIONS = {
 
 
 def _table(folder: Path, name: str) -> Path | None:
-    for suffix in (".parquet", ".csv"):
-        path = folder / f"{name}{suffix}"
-        if path.is_file():
-            return path
-    return None
+    # Hosted dashboard reads CSV only so Streamlit Cloud does not need pyarrow.
+    path = folder / f"{name}.csv"
+    return path if path.is_file() else None
 
 
 def _official_cards(payload: dict) -> None:
