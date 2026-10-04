@@ -1,0 +1,41 @@
+seed: 43
+max_images: 4000
+fallback_images_if_too_slow: 3000
+imgsz: 640
+batch: 8
+batch_fallback: 4
+model: yolo11n.pt
+dataset_yaml: configs/dataset_v2.yaml
+yolo_dirname: yolo-v2
+project_dir: C:/Users/tanam/sordi-cache/runs
+weights_dir: C:/Users/tanam/sordi-cache/weights
+map_tie_epsilon: 0.005
+confidence_thresholds:
+  - 0.20
+  - 0.25
+  - 0.30
+  - 0.35
+  - 0.40
+  - 0.45
+  - 0.50
+  - 0.55
+  - 0.60
+experiments:
+  A:
+    run_name: v2_a
+    epochs: 40
+    cos_lr: false
+    patience: 100
+    description: Data-scale baseline from pretrained yolo11n with standard Ultralytics augmentation.
+  B:
+    run_name: v2_b
+    epochs: 60
+    cos_lr: true
+    patience: 12
+    description: Longer cosine run from pretrained yolo11n, validation early stopping, standard augmentation.
+  C:
+    run_name: v2_c
+    epochs: 60
+    cos_lr: true
+    patience: 12
+    description: Same schedule as B, with the augmentation plan fixed from the V1 failure analysis.

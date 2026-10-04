@@ -1,0 +1,23 @@
+# CUDA wheels are not on PyPI. Install them before this file:
+#   .venv\Scripts\python.exe -m pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+# Then:
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# torch and torchvision are listed with the CUDA index so a later install
+# does not silently replace them with CPU builds.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+ultralytics>=8.3,<9
+opencv-python>=4.10,<5
+pandas>=2.2,<3
+numpy>=1.26,<3
+pyarrow>=16,<22
+streamlit>=1.40,<2
+matplotlib>=3.9,<4
+pyyaml>=6,<7
+kaggle>=1.6,<2
+scikit-learn>=1.5,<2
+Pillow>=10,<13
+jupyter>=1.1,<2
+nbconvert>=7.16,<8

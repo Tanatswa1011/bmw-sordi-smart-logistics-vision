@@ -1,0 +1,9 @@
+path: C:/Users/tanam/sordi-cache/yolo
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: pallet
+  1: stillage
+  2: forklift
+  3: dolly
