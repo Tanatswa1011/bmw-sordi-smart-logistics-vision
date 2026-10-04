@@ -1,0 +1,8 @@
+# Streamlit Community Cloud / hosted dashboard only.
+# Visualizes committed metrics, tables, and figures. Does not train or download data.
+streamlit>=1.40,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+pyarrow>=16,<22
+matplotlib>=3.9,<4
+Pillow>=10,<13

@@ -1,0 +1,28 @@
+{
+  "degrees": 0.0,
+  "shear": 0.0,
+  "perspective": 0.0,
+  "flipud": 0.0,
+  "fliplr": 0.5,
+  "translate": 0.1,
+  "scale": 0.45,
+  "mosaic": 0.3,
+  "mixup": 0.0,
+  "copy_paste": 0.0,
+  "erasing": 0.0,
+  "hsv_h": 0.015,
+  "hsv_s": 0.5,
+  "hsv_v": 0.3,
+  "triggers": {
+    "small_boxes_recall_gap_at_least_0.05": true,
+    "crowded_images_recall_gap_at_least_0.05": true,
+    "classes_with_elevated_low_confidence": []
+  },
+  "rejected": [
+    "vertical flip, because an upside-down warehouse floor is not a useful industrial view",
+    "rotation and shear, because they bend upright loads and aisles",
+    "mixup and copy-paste, because they composite objects into scenes they were not rendered in",
+    "random erasing, because it deletes parts of loads without a physical cause"
+  ],
+  "mosaic_note": "Small boxes and crowded images both recall worse. Mosaic stays at 0.3 so training does not add more crowding. Scale is 0.45 so object size still varies."
+}

@@ -1,0 +1,62 @@
+{
+  "images": 1200,
+  "by_split": {
+    "train": {
+      "images": 840,
+      "objects": {
+        "pallet": 3686,
+        "stillage": 7071,
+        "forklift": 475,
+        "dolly": 2748
+      },
+      "images_with_class": {
+        "pallet": 677,
+        "stillage": 828,
+        "forklift": 453,
+        "dolly": 678
+      }
+    },
+    "val": {
+      "images": 180,
+      "objects": {
+        "pallet": 703,
+        "stillage": 1475,
+        "forklift": 106,
+        "dolly": 579
+      },
+      "images_with_class": {
+        "pallet": 140,
+        "stillage": 179,
+        "forklift": 103,
+        "dolly": 146
+      }
+    },
+    "test": {
+      "images": 180,
+      "objects": {
+        "pallet": 716,
+        "stillage": 1452,
+        "forklift": 108,
+        "dolly": 541
+      },
+      "images_with_class": {
+        "pallet": 143,
+        "stillage": 176,
+        "forklift": 106,
+        "dolly": 148
+      }
+    }
+  },
+  "objects": {
+    "pallet": 5105,
+    "stillage": 9998,
+    "forklift": 689,
+    "dolly": 3868
+  },
+  "images_with_class": {
+    "pallet": 960,
+    "stillage": 1183,
+    "forklift": 662,
+    "dolly": 972
+  }
+}

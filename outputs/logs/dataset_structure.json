@@ -1,0 +1,50 @@
+{
+  "dr1_root": "C:\\Users\\tanam\\sordi-cache\\DR-1",
+  "candidates": [
+    "C:\\Users\\tanam\\sordi-cache\\DR-1"
+  ],
+  "tree": {
+    "root": "C:\\Users\\tanam\\sordi-cache\\DR-1",
+    "entries": [
+      {
+        "path": "C:\\Users\\tanam\\sordi-cache\\DR-1",
+        "depth": 0,
+        "subdirs": [
+          "images",
+          "labels"
+        ],
+        "n_files": 1,
+        "file_suffixes": {
+          ".json": 1
+        }
+      },
+      {
+        "path": "C:\\Users\\tanam\\sordi-cache\\DR-1\\images",
+        "depth": 1,
+        "subdirs": [],
+        "n_files": 9325,
+        "file_suffixes": {
+          ".jpg": 9325
+        }
+      },
+      {
+        "path": "C:\\Users\\tanam\\sordi-cache\\DR-1\\labels",
+        "depth": 1,
+        "subdirs": [
+          "json"
+        ],
+        "n_files": 0,
+        "file_suffixes": {}
+      },
+      {
+        "path": "C:\\Users\\tanam\\sordi-cache\\DR-1\\labels\\json",
+        "depth": 2,
+        "subdirs": [],
+        "n_files": 9325,
+        "file_suffixes": {
+          ".json": 9325
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "split": "test",
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "matching": "one-to-one, same class, IoU >= 0.50",
+  "tp": 2014,
+  "fp": 715,
+  "fn": 794,
+  "precision": 0.7379992671308171,
+  "recall": 0.7172364672364673,
+  "per_class": {
+    "pallet": {
+      "tp": 478,
+      "fp": 223,
+      "fn": 235,
+      "precision": 0.68188302425107,
+      "recall": 0.6704067321178121
+    },
+    "stillage": {
+      "tp": 1110,
+      "fp": 288,
+      "fn": 338,
+      "precision": 0.7939914163090128,
+      "recall": 0.7665745856353591
+    },
+    "forklift": {
+      "tp": 83,
+      "fp": 29,
+      "fn": 25,
+      "precision": 0.7410714285714286,
+      "recall": 0.7685185185185185
+    },
+    "dolly": {
+      "tp": 343,
+      "fp": 175,
+      "fn": 196,
+      "precision": 0.6621621621621622,
+      "recall": 0.6363636363636364
+    }
+  }
+}

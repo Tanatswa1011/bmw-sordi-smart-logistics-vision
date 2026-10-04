@@ -1,0 +1,10 @@
+{
+  "dr1_root": "C:\\Users\\tanam\\sordi-cache\\DR-1",
+  "images": 9325,
+  "paired": 9325,
+  "unresolved_images": 0,
+  "sample_pair": [
+    "C:\\Users\\tanam\\sordi-cache\\DR-1\\images\\0.jpg",
+    "C:\\Users\\tanam\\sordi-cache\\DR-1\\labels\\json\\0.json"
+  ]
+}

@@ -1,0 +1,19 @@
+model: yolo11n.pt
+imgsz: 640
+batch: 8
+batch_fallback: 4
+seed: 42
+baseline_epochs: 30
+tune_epochs: 15
+pretrained: true
+device: 0
+optimizer: auto
+lr0: 0.01
+lrf: 0.01
+baseline_cos_lr: false
+tune_cos_lr: true
+# Windows dataloaders are more reliable with 0 workers on a 4 GB laptop GPU.
+workers: 0
+project_dir: ~/sordi-cache/runs
+weights_dir: ~/sordi-cache/weights
+confidence_threshold: 0.25

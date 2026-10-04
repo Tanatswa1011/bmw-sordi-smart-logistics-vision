@@ -1,0 +1,114 @@
+{
+  "seed": 43,
+  "target_images": 4000,
+  "qualifying_images_before_cap": 9197,
+  "images": 4000,
+  "by_split": {
+    "train": {
+      "images": 2800,
+      "objects": {
+        "pallet": 12030,
+        "stillage": 23110,
+        "forklift": 1600,
+        "dolly": 8788
+      },
+      "images_with_class": {
+        "pallet": 2238,
+        "stillage": 2758,
+        "forklift": 1523,
+        "dolly": 2254
+      }
+    },
+    "val": {
+      "images": 600,
+      "objects": {
+        "pallet": 2574,
+        "stillage": 5033,
+        "forklift": 350,
+        "dolly": 1986
+      },
+      "images_with_class": {
+        "pallet": 481,
+        "stillage": 591,
+        "forklift": 336,
+        "dolly": 487
+      }
+    },
+    "test": {
+      "images": 600,
+      "objects": {
+        "pallet": 2470,
+        "stillage": 4987,
+        "forklift": 347,
+        "dolly": 1787
+      },
+      "images_with_class": {
+        "pallet": 479,
+        "stillage": 591,
+        "forklift": 336,
+        "dolly": 479
+      }
+    }
+  },
+  "objects": {
+    "pallet": 17074,
+    "stillage": 33130,
+    "forklift": 2297,
+    "dolly": 12561
+  },
+  "images_with_class": {
+    "pallet": 3198,
+    "stillage": 3940,
+    "forklift": 2195,
+    "dolly": 3220
+  },
+  "v1_image_overlap": {
+    "v1_test_ids": 180,
+    "v1_test_ids_in_v2_train": 62,
+    "v1_test_ids_in_v2_val": 8,
+    "v1_test_ids_in_v2_test": 15,
+    "note": "V2 is a new split. Overlap with V1 image ids is reported and is not used as a score."
+  },
+  "representation_before_sampling": {
+    "images": 9197,
+    "images_with_class": {
+      "pallet": 6970,
+      "stillage": 8588,
+      "forklift": 4780,
+      "dolly": 7017
+    },
+    "objects": {
+      "pallet": 36248,
+      "stillage": 72887,
+      "forklift": 4974,
+      "dolly": 27954
+    },
+    "box_share": {
+      "pallet": 0.2551544033281009,
+      "stillage": 0.5130611066921014,
+      "forklift": 0.035012635239295244,
+      "dolly": 0.19677185474050246
+    }
+  },
+  "representation_after_sampling": {
+    "images": 4000,
+    "images_with_class": {
+      "pallet": 3198,
+      "stillage": 3940,
+      "forklift": 2195,
+      "dolly": 3220
+    },
+    "objects": {
+      "pallet": 17074,
+      "stillage": 33130,
+      "forklift": 2297,
+      "dolly": 12561
+    },
+    "box_share": {
+      "pallet": 0.2624266084657711,
+      "stillage": 0.5092066029325873,
+      "forklift": 0.03530478620392856,
+      "dolly": 0.19306200239771296
+    }
+  }
+}

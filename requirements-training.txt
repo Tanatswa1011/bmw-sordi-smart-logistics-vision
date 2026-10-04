@@ -1,0 +1,14 @@
+# Local ML / training stack (not used by Streamlit Community Cloud).
+# Install CUDA PyTorch first on the training machine, then this file:
+#   python -m pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+#   python -m pip install -r requirements-training.txt
+#
+# Hosted dashboard dependencies are in requirements.txt only.
+-r requirements.txt
+ultralytics>=8.3,<9
+opencv-python>=4.10,<5
+pyyaml>=6,<7
+kaggle>=1.6,<2
+scikit-learn>=1.5,<2
+jupyter>=1.1,<2
+nbconvert>=7.16,<8

@@ -1,0 +1,166 @@
+{
+  "identical_repeat": true,
+  "official_repeat_identical": true,
+  "prediction_repeat_identical": true,
+  "matcher_count_repeat_identical": true,
+  "model_version": "yolo11n-v2-B",
+  "weights": "~/sordi-cache/runs\\v2_b\\weights\\best.pt",
+  "confidence_threshold": 0.4,
+  "iou_threshold": 0.5,
+  "run_1": {
+    "precision": 0.8862746392737304,
+    "recall": 0.7043130054305102,
+    "map50": 0.7898694239018209,
+    "map50_95": 0.6213097887876671,
+    "per_class": [
+      {
+        "class_name": "pallet",
+        "precision": 0.8805348113129031,
+        "recall": 0.6445344129554655,
+        "ap50": 0.7310036232700389,
+        "ap50_95": 0.528733382345089
+      },
+      {
+        "class_name": "stillage",
+        "precision": 0.920923939164652,
+        "recall": 0.7359133747744134,
+        "ap50": 0.848634063175417,
+        "ap50_95": 0.7003067752637249
+      },
+      {
+        "class_name": "forklift",
+        "precision": 0.8850528403970994,
+        "recall": 0.8184438040345822,
+        "ap50": 0.8643806300994927,
+        "ap50_95": 0.7481108611793749
+      },
+      {
+        "class_name": "dolly",
+        "precision": 0.8585869662202673,
+        "recall": 0.6183604299575797,
+        "ap50": 0.7154593790623347,
+        "ap50_95": 0.5080881363624798
+      }
+    ],
+    "results_dict": {
+      "metrics/precision(B)": 0.8862746392737304,
+      "metrics/recall(B)": 0.7043130054305102,
+      "metrics/mAP50(B)": 0.7898694239018209,
+      "metrics/mAP50-95(B)": 0.6213097887876671,
+      "fitness": 0.6213097887876671
+    },
+    "split": "test",
+    "weights": "~/sordi-cache/runs\\v2_b\\weights\\best.pt",
+    "f1": 0.7848857079985567
+  },
+  "run_2": {
+    "precision": 0.8862746392737304,
+    "recall": 0.7043130054305102,
+    "map50": 0.7898694239018209,
+    "map50_95": 0.6213097887876671,
+    "per_class": [
+      {
+        "class_name": "pallet",
+        "precision": 0.8805348113129031,
+        "recall": 0.6445344129554655,
+        "ap50": 0.7310036232700389,
+        "ap50_95": 0.528733382345089
+      },
+      {
+        "class_name": "stillage",
+        "precision": 0.920923939164652,
+        "recall": 0.7359133747744134,
+        "ap50": 0.848634063175417,
+        "ap50_95": 0.7003067752637249
+      },
+      {
+        "class_name": "forklift",
+        "precision": 0.8850528403970994,
+        "recall": 0.8184438040345822,
+        "ap50": 0.8643806300994927,
+        "ap50_95": 0.7481108611793749
+      },
+      {
+        "class_name": "dolly",
+        "precision": 0.8585869662202673,
+        "recall": 0.6183604299575797,
+        "ap50": 0.7154593790623347,
+        "ap50_95": 0.5080881363624798
+      }
+    ],
+    "results_dict": {
+      "metrics/precision(B)": 0.8862746392737304,
+      "metrics/recall(B)": 0.7043130054305102,
+      "metrics/mAP50(B)": 0.7898694239018209,
+      "metrics/mAP50-95(B)": 0.6213097887876671,
+      "fitness": 0.6213097887876671
+    },
+    "split": "test",
+    "weights": "~/sordi-cache/runs\\v2_b\\weights\\best.pt",
+    "f1": 0.7848857079985567
+  },
+  "matcher": {
+    "tp": 6690,
+    "fp": 771,
+    "fn": 2864,
+    "precision": 0.8966626457579413,
+    "recall": 0.7002302700439607,
+    "f1": 0.7863649720834559,
+    "mean_confidence": 0.7924699647794731,
+    "low_confidence_rate": 0.0
+  },
+  "per_class": [
+    {
+      "class_name": "pallet",
+      "object_count": 2470,
+      "tp": 1604,
+      "fp": 225,
+      "fn": 849,
+      "matcher_precision": 0.8769819573537452,
+      "matcher_recall": 0.6538931920097839,
+      "precision": 0.8805348113129031,
+      "recall": 0.6445344129554655,
+      "ap50": 0.7310036232700389,
+      "ap50_95": 0.528733382345089
+    },
+    {
+      "class_name": "stillage",
+      "object_count": 4987,
+      "tp": 3690,
+      "fp": 331,
+      "fn": 1288,
+      "matcher_precision": 0.9176821686147725,
+      "matcher_recall": 0.741261550823624,
+      "precision": 0.920923939164652,
+      "recall": 0.7359133747744134,
+      "ap50": 0.848634063175417,
+      "ap50_95": 0.7003067752637249
+    },
+    {
+      "class_name": "forklift",
+      "object_count": 347,
+      "tp": 283,
+      "fp": 41,
+      "fn": 61,
+      "matcher_precision": 0.8734567901234568,
+      "matcher_recall": 0.8226744186046512,
+      "precision": 0.8850528403970994,
+      "recall": 0.8184438040345822,
+      "ap50": 0.8643806300994927,
+      "ap50_95": 0.7481108611793749
+    },
+    {
+      "class_name": "dolly",
+      "object_count": 1787,
+      "tp": 1113,
+      "fp": 174,
+      "fn": 666,
+      "matcher_precision": 0.8648018648018648,
+      "matcher_recall": 0.6256323777403036,
+      "precision": 0.8585869662202673,
+      "recall": 0.6183604299575797,
+      "ap50": 0.7154593790623347,
+      "ap50_95": 0.5080881363624798
+    }
+  ]
+}

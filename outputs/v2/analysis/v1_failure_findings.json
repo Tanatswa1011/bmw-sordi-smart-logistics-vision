@@ -1,0 +1,100 @@
+{
+  "test_images": 180,
+  "test_ground_truth": 2817,
+  "matcher_tp": 2014,
+  "matcher_fp": 715,
+  "matcher_fn": 794,
+  "ground_truth_ids_not_in_tp_or_fn": 9,
+  "most_fp_class": "stillage",
+  "most_fp_count": 288,
+  "most_fn_class": "stillage",
+  "most_fn_count": 338,
+  "train_objects": {
+    "pallet": 3686,
+    "stillage": 7071,
+    "forklift": 475,
+    "dolly": 2748
+  },
+  "train_object_share": {
+    "pallet": 0.2636623748211731,
+    "stillage": 0.505793991416309,
+    "forklift": 0.033977110157367665,
+    "dolly": 0.1965665236051502
+  },
+  "train_images_with_class": {
+    "pallet": 677,
+    "stillage": 828,
+    "forklift": 453,
+    "dolly": 678
+  },
+  "small_box_relative_area_p25": 0.008096696528,
+  "small_boxes": {
+    "ground_truth": 705,
+    "tp": 246,
+    "fn": 459,
+    "recall": 0.34893617021276596
+  },
+  "larger_boxes": {
+    "ground_truth": 2112,
+    "tp": 1768,
+    "fn": 344,
+    "recall": 0.8371212121212122
+  },
+  "below_median_area": {
+    "ground_truth": 1409,
+    "tp": 769,
+    "fn": 640,
+    "recall": 0.5457771469127041
+  },
+  "above_median_area": {
+    "ground_truth": 1408,
+    "tp": 1245,
+    "fn": 163,
+    "recall": 0.8842329545454546
+  },
+  "median_relative_area": 0.02291675,
+  "crowded_image_min_objects": 13.5,
+  "crowded_images": 90,
+  "uncrowded_images": 90,
+  "crowded": {
+    "ground_truth": 2079,
+    "tp": 1449,
+    "fn": 630,
+    "recall": 0.696969696969697
+  },
+  "uncrowded": {
+    "ground_truth": 738,
+    "tp": 565,
+    "fn": 173,
+    "recall": 0.7655826558265583
+  },
+  "low_confidence_threshold": 0.4,
+  "low_confidence_predictions": 579,
+  "low_confidence_rate": 0.2121656284353243,
+  "low_confidence_by_class": {
+    "pallet": {
+      "low_confidence_predictions": 193,
+      "low_confidence_rate": 0.275320970042796,
+      "low_confidence_fp": 127,
+      "low_confidence_fp_share": 0.6580310880829016
+    },
+    "stillage": {
+      "low_confidence_predictions": 233,
+      "low_confidence_rate": 0.16666666666666666,
+      "low_confidence_fp": 142,
+      "low_confidence_fp_share": 0.6094420600858369
+    },
+    "forklift": {
+      "low_confidence_predictions": 13,
+      "low_confidence_rate": 0.11607142857142858,
+      "low_confidence_fp": 9,
+      "low_confidence_fp_share": 0.6923076923076923
+    },
+    "dolly": {
+      "low_confidence_predictions": 140,
+      "low_confidence_rate": 0.2702702702702703,
+      "low_confidence_fp": 91,
+      "low_confidence_fp_share": 0.65
+    }
+  }
+}

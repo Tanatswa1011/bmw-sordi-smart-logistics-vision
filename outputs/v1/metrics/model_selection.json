@@ -1,0 +1,97 @@
+{
+  "chosen_run": "tuned",
+  "chosen_weights": "~/sordi-cache/runs\\tuned\\weights\\best.pt",
+  "reason": "tuned has the higher validation mAP50-95",
+  "selection_split": "val",
+  "test_split_used": false,
+  "baseline_val": {
+    "precision": 0.878090490688651,
+    "recall": 0.6363277915153266,
+    "map50": 0.7427784193818198,
+    "map50_95": 0.5598686397662844,
+    "per_class": [
+      {
+        "class_name": "pallet",
+        "precision": 0.8498778253408819,
+        "recall": 0.5746799431009957,
+        "ap50": 0.6848317676874692,
+        "ap50_95": 0.45948346252867545
+      },
+      {
+        "class_name": "stillage",
+        "precision": 0.8887610656459921,
+        "recall": 0.6657627118644068,
+        "ap50": 0.7884058483153387,
+        "ap50_95": 0.6240422173978935
+      },
+      {
+        "class_name": "forklift",
+        "precision": 0.9486687988766803,
+        "recall": 0.7452830188679245,
+        "ap50": 0.8332333814503616,
+        "ap50_95": 0.700059549519042
+      },
+      {
+        "class_name": "dolly",
+        "precision": 0.8250542728910496,
+        "recall": 0.5595854922279793,
+        "ap50": 0.6646426800741092,
+        "ap50_95": 0.4558893296195268
+      }
+    ],
+    "results_dict": {
+      "metrics/precision(B)": 0.878090490688651,
+      "metrics/recall(B)": 0.6363277915153266,
+      "metrics/mAP50(B)": 0.7427784193818198,
+      "metrics/mAP50-95(B)": 0.5598686397662844,
+      "fitness": 0.5598686397662844
+    },
+    "split": "val",
+    "weights": "~/sordi-cache/runs\\baseline\\weights\\best.pt"
+  },
+  "tuned_val": {
+    "precision": 0.8733053991603599,
+    "recall": 0.6458082712951595,
+    "map50": 0.7498600757788656,
+    "map50_95": 0.5646954237737216,
+    "per_class": [
+      {
+        "class_name": "pallet",
+        "precision": 0.8498196935626549,
+        "recall": 0.6117474699773642,
+        "ap50": 0.7037527721092312,
+        "ap50_95": 0.4710775725310342
+      },
+      {
+        "class_name": "stillage",
+        "precision": 0.8895038475070713,
+        "recall": 0.6813559322033899,
+        "ap50": 0.7962464408900082,
+        "ap50_95": 0.6328329117910751
+      },
+      {
+        "class_name": "forklift",
+        "precision": 0.9225563114662149,
+        "recall": 0.7452830188679245,
+        "ap50": 0.8283353540290388,
+        "ap50_95": 0.6948409574559832
+      },
+      {
+        "class_name": "dolly",
+        "precision": 0.8313417441054984,
+        "recall": 0.5448466641319593,
+        "ap50": 0.6711057360871839,
+        "ap50_95": 0.46003025331679376
+      }
+    ],
+    "results_dict": {
+      "metrics/precision(B)": 0.8733053991603599,
+      "metrics/recall(B)": 0.6458082712951595,
+      "metrics/mAP50(B)": 0.7498600757788656,
+      "metrics/mAP50-95(B)": 0.5646954237737216,
+      "fitness": 0.5646954237737216
+    },
+    "split": "val",
+    "weights": "~/sordi-cache/runs\\tuned\\weights\\best.pt"
+  }
+}

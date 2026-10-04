@@ -1,0 +1,8 @@
+{
+  "chosen_run": "tuned",
+  "chosen_weights": "~/sordi-cache/runs\\tuned\\weights\\best.pt",
+  "reason": "tuned has the higher validation mAP50-95",
+  "selection_split": "val",
+  "test_split_used": false,
+  "note": "Path reference only. The weight file stays outside the repository."
+}

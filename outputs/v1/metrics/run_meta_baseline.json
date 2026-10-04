@@ -1,0 +1,31 @@
+{
+  "run_name": "baseline",
+  "timestamp": "2026-10-03T14:08:43.317230+00:00",
+  "model": "yolo11n.pt",
+  "epochs": 30,
+  "imgsz": 640,
+  "batch": 8,
+  "seed": 42,
+  "classes": [
+    "pallet",
+    "stillage",
+    "forklift",
+    "dolly"
+  ],
+  "train_images": 840,
+  "val_images": 180,
+  "test_images": 180,
+  "optimizer": "auto",
+  "learning_rate_settings": {
+    "lr0": 0.01,
+    "lrf": 0.01,
+    "cos_lr": false
+  },
+  "device": "0",
+  "cuda_device_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "torch_version": "2.6.0+cu124",
+  "ultralytics_version": "8.4.172",
+  "git_commit_if_available": null,
+  "weights": "C:\\Users\\tanam\\sordi-cache\\runs\\baseline\\weights\\best.pt",
+  "test_split_used_for_selection": false
+}

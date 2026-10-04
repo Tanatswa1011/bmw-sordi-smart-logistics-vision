@@ -1,0 +1,150 @@
+{
+  "chosen_experiment": "B",
+  "chosen_weights": "~/sordi-cache/runs\\v2_b\\weights\\best.pt",
+  "reason": "B has the highest V2 validation mAP50-95 (0.644817).",
+  "selection_metric": "validation mAP50-95",
+  "selection_split": "val",
+  "test_split_used": false,
+  "confidence_threshold": 0.4,
+  "confidence_threshold_rule": "highest validation matcher F1; ties prefer precision closer to recall, then higher recall",
+  "threshold_frozen": true,
+  "validation_comparison": [
+    {
+      "experiment": "A",
+      "train_image_count": 2800,
+      "epochs_completed": 40,
+      "precision": 0.8989070945168658,
+      "recall": 0.7116607700257767,
+      "f1": 0.7943992043417165,
+      "map50": 0.8031939296793345,
+      "map50_95": 0.6321467836150196,
+      "pallet_precision": 0.8828977738376561,
+      "pallet_recall": 0.6649096220887541,
+      "stillage_precision": 0.9176701534041422,
+      "stillage_recall": 0.7419030855408134,
+      "forklift_precision": 0.9184072103052692,
+      "forklift_recall": 0.8171428571428572,
+      "dolly_precision": 0.8766532405203955,
+      "dolly_recall": 0.6226875153306823
+    },
+    {
+      "experiment": "B",
+      "train_image_count": 2800,
+      "epochs_completed": 60,
+      "precision": 0.9018841748473587,
+      "recall": 0.7289122639626211,
+      "f1": 0.806225007702078,
+      "map50": 0.8127363521371853,
+      "map50_95": 0.6448169538098506,
+      "pallet_precision": 0.8790223097461971,
+      "pallet_recall": 0.6831270165165336,
+      "stillage_precision": 0.9160430173441565,
+      "stillage_recall": 0.7510431154381085,
+      "forklift_precision": 0.9329548996484954,
+      "forklift_recall": 0.8314285714285714,
+      "dolly_precision": 0.879516472650586,
+      "dolly_recall": 0.6500503524672709
+    },
+    {
+      "experiment": "C",
+      "train_image_count": 2800,
+      "epochs_completed": 60,
+      "precision": 0.8867233275127951,
+      "recall": 0.7286590861208915,
+      "f1": 0.7999579591982198,
+      "map50": 0.8094929802482389,
+      "map50_95": 0.6385680101659128,
+      "pallet_precision": 0.8667261640195179,
+      "pallet_recall": 0.6897490996690372,
+      "stillage_precision": 0.9028777004360677,
+      "stillage_recall": 0.7595867275978542,
+      "forklift_precision": 0.9195337685232827,
+      "forklift_recall": 0.8162572140948211,
+      "dolly_precision": 0.8577556770723125,
+      "dolly_recall": 0.649043303121853
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "experiment": "B",
+      "threshold": 0.2,
+      "precision": 0.7180485995177147,
+      "recall": 0.7799717912552891,
+      "f1": 0.7477303457600927,
+      "fp": 3040,
+      "fn": 2184
+    },
+    {
+      "experiment": "B",
+      "threshold": 0.25,
+      "precision": 0.7746248851689292,
+      "recall": 0.7645577271811405,
+      "f1": 0.7695583836130406,
+      "fp": 2208,
+      "fn": 2337
+    },
+    {
+      "experiment": "B",
+      "threshold": 0.3,
+      "precision": 0.8213613724405091,
+      "recall": 0.7476324803546243,
+      "f1": 0.7827646221190865,
+      "fp": 1614,
+      "fn": 2505
+    },
+    {
+      "experiment": "B",
+      "threshold": 0.35,
+      "precision": 0.8644531714863739,
+      "recall": 0.7318154342131775,
+      "f1": 0.7926237110589776,
+      "fp": 1139,
+      "fn": 2662
+    },
+    {
+      "experiment": "B",
+      "threshold": 0.4,
+      "precision": 0.8963345509510013,
+      "recall": 0.7169050977231514,
+      "f1": 0.7966414777497901,
+      "fp": 823,
+      "fn": 2810
+    },
+    {
+      "experiment": "B",
+      "threshold": 0.45,
+      "precision": 0.9231382978723405,
+      "recall": 0.6993753777956881,
+      "f1": 0.7958271236959761,
+      "fp": 578,
+      "fn": 2984
+    },
+    {
+      "experiment": "B",
+      "threshold": 0.5,
+      "precision": 0.9429169574319609,
+      "recall": 0.6806367116663309,
+      "f1": 0.7905915394067053,
+      "fp": 409,
+      "fn": 3170
+    },
+    {
+      "experiment": "B",
+      "threshold": 0.55,
+      "precision": 0.9602222872184849,
+      "recall": 0.6614950634696756,
+      "f1": 0.7833452636602242,
+      "fp": 272,
+      "fn": 3360
+    },
+    {
+      "experiment": "B",
+      "threshold": 0.6,
+      "precision": 0.9702955137038738,
+      "recall": 0.6384243401168648,
+      "f1": 0.7701282129185149,
+      "fp": 194,
+      "fn": 3589
+    }
+  ]
+}

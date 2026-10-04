@@ -1,0 +1,35 @@
+{
+  "images": 20,
+  "objects": 348,
+  "rejected_boxes": 0,
+  "normalized_files": 0,
+  "class_objects": {
+    "stillage": 213,
+    "dolly": 74,
+    "forklift": 8,
+    "pallet": 53
+  },
+  "overlays": [
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_01_0.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_02_10.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_03_1000.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_04_1001.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_05_1002.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_06_1003.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_07_1004.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_08_1005.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_09_1006.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_10_1007.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_11_1008.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_12_1009.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_13_101.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_14_1010.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_15_1011.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_16_1012.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_17_1014.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_18_1015.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_19_1016.jpg",
+    "C:\\Users\\tanam\\OneDrive\\Desktop\\BMW\\outputs\\figures\\samples\\smoke_20_1017.jpg"
+  ],
+  "visual_check_passed": false
+}

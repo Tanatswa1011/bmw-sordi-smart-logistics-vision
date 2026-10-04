@@ -1,0 +1,13 @@
+{
+  "label_path": "C:\\Users\\tanam\\sordi-cache\\DR-1\\labels\\json\\0.json",
+  "objects_found": 27,
+  "first_object": {
+    "Id": 32039,
+    "ObjectClassName": "stillage",
+    "ObjectClassId": 1004,
+    "Left": 1095,
+    "Top": 241,
+    "Right": 1279,
+    "Bottom": 504
+  }
+}

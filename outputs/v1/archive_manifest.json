@@ -1,0 +1,33 @@
+{
+  "copied_from": "outputs/metrics, outputs/tables, outputs/figures",
+  "originals_removed": false,
+  "files": [
+    "metrics\\baseline_args.yaml",
+    "metrics\\baseline_results.csv",
+    "metrics\\baseline_val.json",
+    "metrics\\dataset_summary.json",
+    "metrics\\error_analysis.json",
+    "metrics\\matcher_summary.json",
+    "metrics\\model_selection.json",
+    "metrics\\prediction_count.json",
+    "metrics\\run_meta_baseline.json",
+    "metrics\\run_meta_tuned.json",
+    "metrics\\test_metrics.json",
+    "metrics\\tuned_args.yaml",
+    "metrics\\tuned_results.csv",
+    "metrics\\tuned_val.json",
+    "tables\\detections.csv",
+    "tables\\detections.parquet",
+    "tables\\export_manifest.json",
+    "tables\\false_negatives.csv",
+    "tables\\false_negatives.parquet"
+  ],
+  "checkpoint_reference": {
+    "chosen_run": "tuned",
+    "chosen_weights": "C:\\Users\\tanam\\sordi-cache\\runs\\tuned\\weights\\best.pt",
+    "reason": "tuned has the higher validation mAP50-95",
+    "selection_split": "val",
+    "test_split_used": false,
+    "note": "Path reference only. The weight file stays outside the repository."
+  }
+}

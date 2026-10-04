@@ -1,0 +1,75 @@
+{
+  "count": 10,
+  "examples": [
+    {
+      "file": "error_01_false_positive_1004.jpg",
+      "image_id": "1004",
+      "reason": "false_positive",
+      "n_fp": 1,
+      "n_fn": 1
+    },
+    {
+      "file": "error_02_false_positive_1023.jpg",
+      "image_id": "1023",
+      "reason": "false_positive",
+      "n_fp": 1,
+      "n_fn": 8
+    },
+    {
+      "file": "error_03_false_positive_105.jpg",
+      "image_id": "105",
+      "reason": "false_positive",
+      "n_fp": 1,
+      "n_fn": 8
+    },
+    {
+      "file": "error_04_false_negative_1076.jpg",
+      "image_id": "1076",
+      "reason": "false_negative",
+      "n_fp": 2,
+      "n_fn": 7
+    },
+    {
+      "file": "error_05_false_negative_1079.jpg",
+      "image_id": "1079",
+      "reason": "false_negative",
+      "n_fp": 0,
+      "n_fn": 1
+    },
+    {
+      "file": "error_06_false_negative_1085.jpg",
+      "image_id": "1085",
+      "reason": "false_negative",
+      "n_fp": 3,
+      "n_fn": 7
+    },
+    {
+      "file": "error_07_low_iou_3268.jpg",
+      "image_id": "3268",
+      "reason": "low_iou",
+      "n_fp": 6,
+      "n_fn": 2
+    },
+    {
+      "file": "error_08_low_iou_3037.jpg",
+      "image_id": "3037",
+      "reason": "low_iou",
+      "n_fp": 0,
+      "n_fn": 3
+    },
+    {
+      "file": "error_09_confused_class_1516.jpg",
+      "image_id": "1516",
+      "reason": "confused_class",
+      "n_fp": 5,
+      "n_fn": 6
+    },
+    {
+      "file": "error_10_confused_class_1766.jpg",
+      "image_id": "1766",
+      "reason": "confused_class",
+      "n_fp": 3,
+      "n_fn": 6
+    }
+  ]
+}

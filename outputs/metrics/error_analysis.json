@@ -1,0 +1,137 @@
+{
+  "count": 12,
+  "examples": [
+    {
+      "file": "error_01_false_positive_1045.jpg",
+      "image_id": "1045",
+      "reason": "false_positive",
+      "n_fp": 2,
+      "n_fn": 3,
+      "n_tp": 1,
+      "min_match_iou": 0.9104991537915457,
+      "min_conf": 0.2648457884788513,
+      "confused": false
+    },
+    {
+      "file": "error_02_false_positive_1136.jpg",
+      "image_id": "1136",
+      "reason": "false_positive",
+      "n_fp": 5,
+      "n_fn": 2,
+      "n_tp": 10,
+      "min_match_iou": 0.5669374901784018,
+      "min_conf": 0.27176156640052795,
+      "confused": true
+    },
+    {
+      "file": "error_03_false_positive_1333.jpg",
+      "image_id": "1333",
+      "reason": "false_positive",
+      "n_fp": 14,
+      "n_fn": 13,
+      "n_tp": 25,
+      "min_match_iou": 0.6945430622222796,
+      "min_conf": 0.2515502870082855,
+      "confused": false
+    },
+    {
+      "file": "error_04_false_negative_1377.jpg",
+      "image_id": "1377",
+      "reason": "false_negative",
+      "n_fp": 1,
+      "n_fn": 5,
+      "n_tp": 7,
+      "min_match_iou": 0.8575935889697114,
+      "min_conf": 0.4888680577278137,
+      "confused": false
+    },
+    {
+      "file": "error_05_false_negative_1408.jpg",
+      "image_id": "1408",
+      "reason": "false_negative",
+      "n_fp": 1,
+      "n_fn": 2,
+      "n_tp": 7,
+      "min_match_iou": 0.7219328046643344,
+      "min_conf": 0.28438693284988403,
+      "confused": false
+    },
+    {
+      "file": "error_06_false_negative_1772.jpg",
+      "image_id": "1772",
+      "reason": "false_negative",
+      "n_fp": 3,
+      "n_fn": 2,
+      "n_tp": 19,
+      "min_match_iou": 0.7004771149748268,
+      "min_conf": 0.3539120554924011,
+      "confused": false
+    },
+    {
+      "file": "error_07_low_iou_398.jpg",
+      "image_id": "398",
+      "reason": "low_iou",
+      "n_fp": 2,
+      "n_fn": 2,
+      "n_tp": 13,
+      "min_match_iou": 0.500894105950319,
+      "min_conf": 0.2501438856124878,
+      "confused": false
+    },
+    {
+      "file": "error_08_low_iou_2723.jpg",
+      "image_id": "2723",
+      "reason": "low_iou",
+      "n_fp": 6,
+      "n_fn": 21,
+      "n_tp": 16,
+      "min_match_iou": 0.5066085988652844,
+      "min_conf": 0.2945670187473297,
+      "confused": true
+    },
+    {
+      "file": "error_09_low_confidence_47.jpg",
+      "image_id": "47",
+      "reason": "low_confidence",
+      "n_fp": 4,
+      "n_fn": 4,
+      "n_tp": 21,
+      "min_match_iou": 0.5528058440957844,
+      "min_conf": 0.25005972385406494,
+      "confused": true
+    },
+    {
+      "file": "error_10_low_confidence_851.jpg",
+      "image_id": "851",
+      "reason": "low_confidence",
+      "n_fp": 10,
+      "n_fn": 8,
+      "n_tp": 27,
+      "min_match_iou": 0.5463708426355718,
+      "min_conf": 0.25028926134109497,
+      "confused": false
+    },
+    {
+      "file": "error_11_confused_class_2059.jpg",
+      "image_id": "2059",
+      "reason": "confused_class",
+      "n_fp": 2,
+      "n_fn": 5,
+      "n_tp": 1,
+      "min_match_iou": 0.8393399699207289,
+      "min_conf": 0.2621726393699646,
+      "confused": true
+    },
+    {
+      "file": "error_12_confused_class_2169.jpg",
+      "image_id": "2169",
+      "reason": "confused_class",
+      "n_fp": 4,
+      "n_fn": 9,
+      "n_tp": 15,
+      "min_match_iou": 0.6935363900244608,
+      "min_conf": 0.2888234853744507,
+      "confused": true
+    }
+  ]
+}

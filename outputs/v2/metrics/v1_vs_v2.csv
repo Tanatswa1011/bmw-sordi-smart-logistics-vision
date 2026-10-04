@@ -1,0 +1,17 @@
+metric,v1,v2,absolute_change,relative_change,note
+precision,0.8208084666754821,0.8862746392737304,0.0654661725982482,0.0797581594929273,Ultralytics validation. Independent of the operating confidence threshold.
+recall,0.6610453447139952,0.7043130054305102,0.043267660716515,0.0654533929669151,Ultralytics validation. Independent of the operating confidence threshold.
+f1,0.7323146340446263,0.7848857079985567,0.0525710739539304,0.0717875507465645,Ultralytics validation. Independent of the operating confidence threshold.
+map50,0.7473408380298421,0.7898694239018209,0.0425285858719788,0.0569065461270572,Ultralytics validation. Independent of the operating confidence threshold.
+map50_95,0.5623420354757873,0.6213097887876671,0.0589677533118797,0.1048610091223008,Ultralytics validation. Independent of the operating confidence threshold.
+matcher_precision,0.7379992671308171,0.8966626457579413,0.1586633786271242,0.2149912414465849,One-to-one matcher at IoU 0.50. V1 confidence threshold 0.25. V2 confidence threshold 0.4.
+matcher_recall,0.7172364672364673,0.7002302700439607,-0.0170061971925066,-0.0237107257778344,One-to-one matcher at IoU 0.50. V1 confidence threshold 0.25. V2 confidence threshold 0.4.
+matcher_f1,0.7274697489615315,0.7863649720834559,0.0588952231219244,0.080958999609259,One-to-one matcher at IoU 0.50. V1 confidence threshold 0.25. V2 confidence threshold 0.4.
+fp,715.0,771.0,56.0,0.0783216783216783,"One-to-one matcher at IoU 0.50. V1 confidence threshold 0.25. V2 confidence threshold 0.4. Raw counts are not on the same test set. V1 has 180 images and 2,817 ground-truth boxes. V2 has 600 images and 9,591 ground-truth boxes."
+fn,794.0,2864.0,2070.0,2.607052896725441,"One-to-one matcher at IoU 0.50. V1 confidence threshold 0.25. V2 confidence threshold 0.4. Raw counts are not on the same test set. V1 has 180 images and 2,817 ground-truth boxes. V2 has 600 images and 9,591 ground-truth boxes."
+mean_confidence,0.676533625791168,0.7924699647794731,0.115936338988305,0.1713681841796466,One-to-one matcher at IoU 0.50. V1 confidence threshold 0.25. V2 confidence threshold 0.4.
+low_confidence_rate,0.2121656284353243,0.0,-0.2121656284353243,-1.0,"Share of exported predictions below 0.40. V2 operating threshold is 0.40, so this rate is 0 by construction and is not evidence that uncertain detections disappeared."
+test_images,180.0,600.0,420.0,2.3333333333333335,Different held-out splits. Not a paired comparison.
+ground_truth_objects,2817.0,9591.0,6774.0,2.40468583599574,Sum of test-split object counts in the dataset summaries.
+fp_per_image,3.9722222222222223,1.285,-2.687222222222222,-0.6765034965034965,False positives divided by test images.
+fn_per_ground_truth,0.28186013489527867,0.29861328328641434,0.016753148391135675,0.0594378073272408,False negatives divided by ground-truth objects. Higher means more misses per object.

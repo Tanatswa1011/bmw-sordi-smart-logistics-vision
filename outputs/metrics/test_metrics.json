@@ -1,0 +1,95 @@
+{
+  "identical_repeat": true,
+  "model_version": "yolo11n-tuned",
+  "weights": "C:\\Users\\tanam\\sordi-cache\\runs\\tuned\\weights\\best.pt",
+  "run_1": {
+    "precision": 0.8208084666754821,
+    "recall": 0.6610453447139952,
+    "map50": 0.7473408380298421,
+    "map50_95": 0.5623420354757873,
+    "per_class": [
+      {
+        "class_name": "pallet",
+        "precision": 0.8325510967231887,
+        "recall": 0.6110809002048718,
+        "ap50": 0.6918382198983728,
+        "ap50_95": 0.46212991082510646
+      },
+      {
+        "class_name": "stillage",
+        "precision": 0.8718849986103795,
+        "recall": 0.7134986225895317,
+        "ap50": 0.812493305638418,
+        "ap50_95": 0.6546629029619779
+      },
+      {
+        "class_name": "forklift",
+        "precision": 0.8039768041920445,
+        "recall": 0.7595279189081575,
+        "ap50": 0.8181399465566935,
+        "ap50_95": 0.6752406109264031
+      },
+      {
+        "class_name": "dolly",
+        "precision": 0.7748209671763154,
+        "recall": 0.5600739371534196,
+        "ap50": 0.6668918800258841,
+        "ap50_95": 0.45733471718966145
+      }
+    ],
+    "results_dict": {
+      "metrics/precision(B)": 0.8208084666754821,
+      "metrics/recall(B)": 0.6610453447139952,
+      "metrics/mAP50(B)": 0.7473408380298421,
+      "metrics/mAP50-95(B)": 0.5623420354757873,
+      "fitness": 0.5623420354757873
+    },
+    "split": "test",
+    "weights": "C:\\Users\\tanam\\sordi-cache\\runs\\tuned\\weights\\best.pt"
+  },
+  "run_2": {
+    "precision": 0.8208084666754821,
+    "recall": 0.6610453447139952,
+    "map50": 0.7473408380298421,
+    "map50_95": 0.5623420354757873,
+    "per_class": [
+      {
+        "class_name": "pallet",
+        "precision": 0.8325510967231887,
+        "recall": 0.6110809002048718,
+        "ap50": 0.6918382198983728,
+        "ap50_95": 0.46212991082510646
+      },
+      {
+        "class_name": "stillage",
+        "precision": 0.8718849986103795,
+        "recall": 0.7134986225895317,
+        "ap50": 0.812493305638418,
+        "ap50_95": 0.6546629029619779
+      },
+      {
+        "class_name": "forklift",
+        "precision": 0.8039768041920445,
+        "recall": 0.7595279189081575,
+        "ap50": 0.8181399465566935,
+        "ap50_95": 0.6752406109264031
+      },
+      {
+        "class_name": "dolly",
+        "precision": 0.7748209671763154,
+        "recall": 0.5600739371534196,
+        "ap50": 0.6668918800258841,
+        "ap50_95": 0.45733471718966145
+      }
+    ],
+    "results_dict": {
+      "metrics/precision(B)": 0.8208084666754821,
+      "metrics/recall(B)": 0.6610453447139952,
+      "metrics/mAP50(B)": 0.7473408380298421,
+      "metrics/mAP50-95(B)": 0.5623420354757873,
+      "fitness": 0.5623420354757873
+    },
+    "split": "test",
+    "weights": "C:\\Users\\tanam\\sordi-cache\\runs\\tuned\\weights\\best.pt"
+  }
+}
